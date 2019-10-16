@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: lightblue;
+    background: linear-gradient(90deg, #bdc3c7, #2c3e50);
+}
+
+h1 {
+    text-align: center;
+    font-family: "Monoton", cursive;
+    font-size: 90px;
+    color: black;
+}
+
+.rules {
+    margin: 20px auto;
+    padding: 20px;
+    color: black;
+    border: 2px solid lightblue;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.rules p {
+    font-size: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.rules ol {
+    font-size: 25px;
+    margin-left: 60px;
+}
+
+.rules li {
+    padding: 10px;
+}
+
+.game {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.game h3 {
+    margin: 10px auto;
+    font-size: 25px;
+}
+
+button {
+    padding: 20px 50px;
+    background: transparent;
+    text-shadow: 1px 1px 1px #202020;
+    font-family: "Lato", sans-serif;
+    font-size: 18pt;
+    color: lightblue;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 5px solid lightblue;
+    box-shadow: 0 0 10px white;
+    background-color: white;
+}
+
+#message {
+    margin: 10px auto;
+    font-size: 30px;
+    font-weight: normal;
+    color: red;
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    margin: 0px auto 0;
+}
+
+.tower {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+}
+
+.label-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    margin: auto;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.label {
+    height: 80px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 0 5px;
+    background-color: black;
+    border: 1px solid lightblue;
+    border-radius: 5%;
+    width: 100%;
+    padding-bottom: 20px;
+    color: white;
+    font-family: "Monoton", cursive;
+}
+
+#disk1 {
+    background-color: red;
+    width: 90%;
+    height: 50px;
+}
+
+#disk2 {
+    background-color: green;
+    width: 75%;
+    height: 50px;
+}
+
+#disk3 {
+    background-color: purple;
+    width: 50%;
+    height: 50px;
+}
+
+#disk4 {
+    background-color: blue;
+    width: 25%;
+    height: 50px;
+}
+
+.disk:hover {
+    cursor: pointer;
+    border: 5px solid lightblue;
+    box-shadow: 0 0 10px white;
+}

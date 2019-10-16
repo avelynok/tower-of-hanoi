@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tower of Hanoi</title>
+</head>
+
+<body>
+    <header>
+        <h1>Tower of Hanoi</h1>
+    </header>
+    <div class="rules">
+        <p>
+            The objective of this puzzle is to move the discs, one at a time, from
+            start to finish.
+        </p>
+        <ol>
+            <li>Move only one disk at a time.</li>
+            <li>
+                Each move consists of taking the upper disk from one of the stacks and
+                placing it on top of another stack.
+            </li>
+            <li>A larger disk may not be placed on top of a smaller disk.</li>
+        </ol>
+    </div>
+    <div class="game">
+        <h3>Move Counter</h3>
+        <button id="count">0</button>
+    </div>
+    <div class="game" id="message"></div>
+    <div class="container">
+        <div id="tower1" class="tower">
+            <div id="disk1" class="disk"></div>
+            <div id="disk2" class="disk"></div>
+            <div id="disk3" class="disk"></div>
+            <div id="disk4" class="disk"></div>
+        </div>
+        <div id="tower2" class="tower"></div>
+        <div id="tower3" class="tower"></div>
+    </div>
+    <div class="label-container">
+        <div class="label">Start</div>
+        <div class="label">Middle</div>
+        <div class="label">Finish</div>
+    </div>
+    <div class="game"><button onclick="reset()">Reset Moves</button></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
